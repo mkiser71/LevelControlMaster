@@ -4,7 +4,7 @@
 
 
 
-/*12/23/2014 TESTING GIT COMMIT
+/*
 >>>>>>> origin/master
 This Sketch Written By Mike Hal
 Feel Free to distribute and alter this code!
