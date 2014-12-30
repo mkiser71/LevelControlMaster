@@ -26,9 +26,9 @@ Servo myservo;
 
  
 
-const int xPin = 11;           // X output of the accelerometer
+const int xPin = 3;           // X output of the accelerometer
 
-const int yPin = 12;           // Y output of the accelerometer
+const int yPin = 2;           // Y output of the accelerometer
 
  
 
@@ -62,9 +62,9 @@ void setup()
 
 {
 
-  myservo.attach(1, 45, 135); // define what pin the servos are on
+  myservo.attach(10, 45, 135); // define what pin the servos are on
 
-  myservo.attach(2, 45, 135); // the minimum angle
+  myservo.attach(11, 45, 135); // the minimum angle
 
   myservo.attach(3, 45, 135); // that can be rotated
 
