@@ -9,6 +9,9 @@ Feel Free to distribute and alter this code!
 Using Memsic 2125 Accelerometer, Standard Hobby Servos, and Arduino Uno.
 Matches tilt from accelerometer to servos. Video at http://www.youtube.com/watch?v=i_1c97m_p0I
 */
+
+//This physical build needs only the x-axis???? Need to draw this and consider...
+//On further thought, it seems that x and y will need to act on each motor. What order?
 //!!!CHANGE MOTOR NAMES TO DIRECTIONS!!! Done - 01-11-2015
 #include <Servo.h> //Include Servo Library
 
