@@ -1,10 +1,10 @@
-#include <Servo.h>
+#include <Servo.h>	//Include Servo Library
 
-Servo servoX;
+Servo servoX;	//Declare Servo
 
-int servoXpin = 4;
+int servoXpin = 4;	//Pin for Servo
 
-int sensorXPin = 2;
+int sensorXPin = 2;	//Pin for Accelerometer
 
 int s
 
