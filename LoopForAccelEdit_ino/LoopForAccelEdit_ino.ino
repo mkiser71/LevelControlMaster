@@ -8,6 +8,13 @@ int sensorXPin = 2;	//Pin for Accelerometer
 
 int s
 
+void setup() {
+
+	Serial.begin (9600);
+
+	pinMode(sensorXpin, INPUT);
+}
+
 //void loop for the X axis:
 void loop(){
 //int sensorXPin = 2;
