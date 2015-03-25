@@ -38,9 +38,9 @@ int refreshTime = 10;  // Time needed in between pulses
 
  
 
-int minSensorValue[xPin] = {-180, -180}; // the least value the accelerometer can read
+int minSensorValue[xPin][yPin] = {-180, -180}; // the least value the accelerometer can read
 
-int maxSensorValue[yPin] = {180, 180}; // the greatest value the accelerometer can read
+int maxSensorValue[xPin][yPin] = {180, 180}; // the greatest value the accelerometer can read
 
 int pulseWidth[xPin][yPin] = { 0, 0 };  // Pulse width for the servo motors
 
