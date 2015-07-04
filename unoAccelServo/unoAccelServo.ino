@@ -13,7 +13,7 @@ int xsPin = 11;  //Pin for Servos
 int ysPin = 10;
 int xPin = 2;  //Pins for Accelerometer
 int yPin = 3;
-int sensitivity = 10;  //If > 2, will require a larger movement before activating servos
+int sensitivity = 2;  //If > 2, will require a larger movement before activating servos
 boolean setServo = false;  //Flag for whether to change servo position or not
 int temp;  //temporary calculations value
 int accelerationX, accelerationY = 90;  //Servo positions, initializes to middle of field

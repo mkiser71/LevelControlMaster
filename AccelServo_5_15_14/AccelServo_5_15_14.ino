@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-/*
-=======
+
 /*
 >>>>>>> origin/master
 This Sketch Written By Mike Hal
@@ -20,15 +18,15 @@ int NorthEastPin = 10;  //Pin for Servos
 int SouthEastPin = 5;
 int NorthWestPin = 9;
 int SouthWestPin = 6;
-int xPin = 7;  //Pins for Accelerometer
-int yPin = 8;
-int sensitivity = 5;  //If > 2, will require a larger movement before activating servos
+int xPin = 2;  //Pins for Accelerometer
+int yPin = 3;
+int sensitivity = 2;  //If > 2, will require a larger movement before activating servos
 boolean setServo = false;  //Flag for whether to change servo position or not
 int temp;  //temporary calculations value
-int NorthEastAccel = 90;  //Servo positions
-int SouthEastAccel = 180;  
-int NorthWestAccel = 90;
-int SouthWestAccel = 180;
+int NorthEastAccel = 0;  //Servo positions
+int SouthEastAccel = 0;  
+int NorthWestAccel = 0;
+int SouthWestAccel = 0;
 
 void setup()
 {   
