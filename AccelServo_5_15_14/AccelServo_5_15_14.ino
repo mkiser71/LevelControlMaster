@@ -5,7 +5,7 @@
 =======
 /*
 >>>>>>> origin/master
-This Sketch Written By Mike Hal
+This Sketch Written By Mike Hal 1
 Feel Free to distribute and alter this code!
 
 Using Memsic 2125 Accelerometer, Standard Hobby Servos, and Arduino Uno.
